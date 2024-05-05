@@ -1,0 +1,27 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.rulers": [
+        {"color": "lightblue",
+            "column": 99},
+            {
+                "color": "lightgreen",
+                "column": 79
+            }
+    ],
+    "editor.formatOnPaste": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.defaultFoldingRangeProvider": null,
+    "isort.check": true
+
+}
