@@ -23,3 +23,5 @@ if __name__ == "__main__":
     i = int(input())
     bit_manipulation(n, i)
 
+
+
